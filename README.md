@@ -2,13 +2,23 @@
 
 Rebellious streetwear for the resilient. Defy the flock. Live limitless.
 
+## Live Site
+
+View the live website at: [https://classicclown-codes.github.io/BlackSheep-Culture/](https://classicclown-codes.github.io/BlackSheep-Culture/)
+
 ## Deployment
 
-This is a static site. To deploy with HTTPS:
+This is a static site. Currently deployed on GitHub Pages with HTTPS.
+
+To deploy elsewhere:
 
 1. Host on [Netlify](https://netlify.com) or [Vercel](https://vercel.com) for free HTTPS.
 2. Upload the files or connect your Git repo.
 3. Update the canonical URLs in `index.html`, `robots.txt`, and `sitemap.xml` to match your domain.
+
+## Repository
+
+Source code: [https://github.com/classicclown-codes/BlackSheep-Culture](https://github.com/classicclown-codes/BlackSheep-Culture)
 
 ## Images & Video
 
