@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Film - BlackSheep Culture</title>
+  <meta name="description" content="BlackSheep Culture — rebellious streetwear for the resilient. Defy the flock. Live limitless." />
+  <meta name="keywords" content="streetwear, BlackSheep Culture, resilient fashion, defy the flock, limitless" />
+  <meta name="author" content="BlackSheep Culture" />
+  <link rel="canonical" href="https://blacksheepculture.com/video" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self';" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand">
+        <img src="images/logo.png" alt="BlackSheep Culture Logo" class="brand-logo" />
+        <span class="brand-name">BlackSheep Culture</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">☰</button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="lookbook.html">Lookbook</a>
+        <a href="video.html">Film</a>
+        <a href="social.html">Community</a>
+        <a href="shop.html" class="nav-cta">Shop Now</a>
+      </nav>
+    </header>
+
+  <main>
+    <section class="video section" id="video">
+      <div class="section-head" data-animate>
+        <p class="eyebrow">BRAND FILM</p>
+        <h2>Wear The Rebellion</h2>
+      </div>
+      <div class="video-wrap reveal" data-animate>
+        <div class="video-player">
+          <video
+            id="brandVideo"
+            src="video/brand-film.mp4"
+            poster="images/video-poster.jpg"
+            controls
+            playsinline
+            muted
+            preload="metadata"
+            tabindex="0"
+          >
+            Your browser does not support the video tag.
+          </video>
+
+          <div class="video-playlist" role="tablist">
+            <button type="button" class="playlist-item active" data-src="video/brand-film.mp4" data-poster="images/video-poster.jpg" aria-selected="true">Film 1</button>
+            <button type="button" class="playlist-item" data-src="video/brand-film-2.mp4" data-poster="images/video-poster-2.jpg" aria-selected="false">Film 2</button>
+            <button type="button" class="playlist-item" data-src="video/brand-film-3.mp4" data-poster="images/video-poster-3.jpg" aria-selected="false">Film 3</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 BlackSheep Culture. Built for the resilient.</p>
+    <div>
+      <span>#DefyTheFlock</span>
+      <span>#Limitless</span>
+    </div>
+  </footer>
+
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
