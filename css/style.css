@@ -473,6 +473,17 @@
     box-shadow: var(--shadow-glow), var(--shadow-lg);
   }
 
+  .btn-prighost {
+    background: linear-gradient(135deg, var(--accent), #ff6b3d);
+    color: #fff;
+    box-shadow: var(--shadow-md);
+  }
+  
+  .btn-prighost:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow), var(--shadow-lg);
+  }
+
   .btn-ghost {
     border: 1px solid var(--line);
     color: var(--text);
