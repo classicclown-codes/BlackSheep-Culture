@@ -430,8 +430,9 @@ document.addEventListener('DOMContentLoaded', () => {
       `images/product${productId}-2.jpg`,
       `images/product${productId}-3.jpg`,
       `images/product${productId}-4.jpg`,
-      `images/product${productId}-5.jpg`
-    ];
+      `images/product${productId}-5.jpg`,
+      `images/product${productId}-6.jpg`
+    ].slice(0, variantLabels.length);
 
     let currentIndex = 0;
     card.dataset.variantIndex = currentIndex;
@@ -445,6 +446,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Brown': '#654321',
       'Red': '#800000',
       'Grey': '#A9A9A9',
+      'Purple': '#800580'
     };
 
     const updateVariantDots = () => {
