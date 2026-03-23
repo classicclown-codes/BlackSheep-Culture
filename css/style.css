@@ -474,7 +474,7 @@
   }
 
   .btn-prighost {
-    background: color(135deg, var(--accent), #ff6a3d00);
+    background: transparent;
     color: #fff;
     box-shadow: var(--shadow-md);
   }
